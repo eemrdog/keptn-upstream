@@ -1,2 +1,2 @@
-image: docker.io/keptnexamples/carts:latest
+image: docker.io/keptnexamples/carts:0.13.2
 replicaCount: 1
