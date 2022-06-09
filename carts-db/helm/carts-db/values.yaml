@@ -1,6 +1,6 @@
-image: docker.io/mongo:4.2.2
-replicaCount: 1
+image: mongo
 service:
-  externalPort: 27017
-  internalPort: 27017
-  name: carts-db
+    externalPort: 27017
+    internalPort: 27017
+    name: carts-db
+replicaCount: 1
